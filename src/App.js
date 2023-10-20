@@ -9,16 +9,18 @@ import ClassComponentState from './Components/ClassCompState/ClassCompState';
 import EventHandling from './Components/EventHandling/EventHandling';
 import ConditionalRendering from './Components/ConditionalRendering/ConditionalRendering';
 import ListRendering from './Components/ListRendering/ListRendering';
-
+import FormHandling from './Components/FormHandling/FormHandling';
+import FragmantComp from './Components/FragmantComp/FragmantComp';
+import RefsComp from './Components/RefsComp/RefsComp';
+import ComponentC from './Components/Context/ComponentC/ComponentC';
+import { UserProvider } from './Components/Context/contextData';
+import GetPosts from './Components/GetPost/GetPosts';
+import PostnumPosts from './Components/PostnumPosts/PostnumPosts';
 function App() {
   return (
     <div className="App">
       {/* <CompWithJSX />*/}
       {/* <CompWoutJSX /> */}
-    <Hello Fname="Mohamed" Sname="Adel">
-        <p>This is paragraph</p>
-        <button>Close</button>
-        </Hello>
 
 {     /* <Hello Fname="Hamed"> 
         <h1>From Hamed Props</h1>
@@ -34,8 +36,20 @@ function App() {
 
     {/* <ConditionalRendering /> */}
 
-    <ListRendering />
-    </div>
+    { /* <ListRendering /> */}
+
+    { /* <FormHandling /> */}
+
+    {/* <FragmantComp /> */}
+
+    {/* <RefsComp /> */}
+{   /* <UserProvider value="Hello IOT this is Iot Meeting" >
+      <ComponentC  />
+    </UserProvider>*/}
+   {/* <GetPosts /> */}
+    <PostnumPosts />
+  </div> 
+  
   );
 }
 
