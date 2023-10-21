@@ -16,6 +16,10 @@ import ComponentC from './Components/Context/ComponentC/ComponentC';
 import { UserProvider } from './Components/Context/contextData';
 import GetPosts from './Components/GetPost/GetPosts';
 import PostnumPosts from './Components/PostnumPosts/PostnumPosts';
+import ClassEx from './Components/Hooks/ClassEx/ClassEx';
+import HooksUseStateEX from './Components/Hooks/HooksUseStateEX/HooksUseStateEX';
+import UseStateWithObjs from './Components/Hooks/UseStateWithObjs/UseStateWithObjs';
+import UseStateWithArray from './Components/Hooks/useStateWithArray/useStateWithArray';
 function App() {
   return (
     <div className="App">
@@ -47,7 +51,10 @@ function App() {
       <ComponentC  />
     </UserProvider>*/}
    {/* <GetPosts /> */}
-    <PostnumPosts />
+    { /* <PostnumPosts /> */}
+    {/* <ClassEx /> */}
+    {/* <HooksUseStateEX /> */}
+    {<UseStateWithArray />}
   </div> 
   
   );
