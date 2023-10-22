@@ -20,6 +20,13 @@ import ClassEx from './Components/Hooks/ClassEx/ClassEx';
 import HooksUseStateEX from './Components/Hooks/HooksUseStateEX/HooksUseStateEX';
 import UseStateWithObjs from './Components/Hooks/UseStateWithObjs/UseStateWithObjs';
 import UseStateWithArray from './Components/Hooks/useStateWithArray/useStateWithArray';
+import SideEffectClassComp from './Components/Hooks/SideEffectClassComp/SideEffectClassComp';
+import UseEffectExample from './Components/Hooks/UseEffectExample/UseEffectExample';
+import UseEffectWithCondition from './Components/Hooks/UseEffectWithCondition/UseEffectWithCondition';
+import UesEffectOneTime from './Components/Hooks/UesEffectOneTime/UesEffectOneTime';
+import UseEffectWithCleanUp from './Components/Hooks/UseEffectWithCleanUp/UseEffectWithCleanUp';
+import FetchDataFromAPI from './Components/Hooks/FetchDataFromAPI/FetchDataFromAPI';
+import SearchInAPI from './Components/Hooks/SearchInAPI/SearchInAPI';
 function App() {
   return (
     <div className="App">
@@ -54,7 +61,14 @@ function App() {
     { /* <PostnumPosts /> */}
     {/* <ClassEx /> */}
     {/* <HooksUseStateEX /> */}
-    {<UseStateWithArray />}
+    {/* <UseStateWithArray /> */}
+    {/* <SideEffectClassComp /> */}
+   { /* <UseEffectExample /> */}
+    {/* <UseEffectWithCondition /> */}
+    { /* <UseEffectWithCleanUp /> */}
+  {  /*  <FetchDataFromAPI /> */}
+    <SearchInAPI />
+
   </div> 
   
   );
